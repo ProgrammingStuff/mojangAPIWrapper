@@ -1,4 +1,4 @@
-package mojangapi;
+package wrapper;
 
 import com.google.gson.*;
 import org.apache.http.client.methods.CloseableHttpResponse;
@@ -9,7 +9,7 @@ import org.apache.http.impl.client.HttpClientBuilder;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Wrapper {
+public class MojangApi {
 
     private static JsonElement getData(String url) {
         JsonElement result;
